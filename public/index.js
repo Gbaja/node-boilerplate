@@ -1,5 +1,4 @@
-const exampleFunc = ()=>{
-    console.log("Javascript");
-}
-
-exampleFunc()
+(() => {
+   console.log("Client side Javascript is running!");
+   
+})();

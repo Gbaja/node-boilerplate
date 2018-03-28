@@ -1,7 +1,5 @@
 "use strict";
 
-var exampleFunc = function exampleFunc() {
-    console.log("Javascript");
-};
-
-exampleFunc();
+(function () {
+   console.log("Client side Javascript is running!");
+})();
